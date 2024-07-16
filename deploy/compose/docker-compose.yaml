@@ -23,7 +23,7 @@ services:
     image: "oktopusp/controller"
     container_name: controller
     ports:
-      - 8000:8000
+      - 8088:8000
     depends_on:
       - mongo_usp
     env_file:
